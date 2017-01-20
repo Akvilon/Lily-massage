@@ -1,0 +1,120 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;;
+}
+
+.hello {
+    width: 100%;
+    min-height: 550px;
+    margin: 20px 0;
+    background: url(../img/background-flower.png) no-repeat right bottom;
+    border: 1px solid red;
+}
+
+.hello--left {
+    float: left;
+    width: 30%;
+}
+
+.img-bordered--lili {
+    width: 232px;
+    height:280px;
+    box-shadow: 0 0 0 17px rgba(225, 225, 225, 0.7) inset;
+    background-image: url(../img/lili.jpg);
+    margin: 30px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+
+.my-button {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.btn-order {
+    background-color: #e1eed0;
+    border-radius: 25px;
+    padding: 10px 20px;
+
+}
+
+
+.hello--right {
+    float: right;
+    width: 70%;
+}
+
+
+
+
+
+
+
+.text-header1 {
+    color: #005F2D;
+    font-size: 31px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.text-header2 {
+    color: #70C10C;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.text-header3 {
+    color: #005F2D;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.text-about {
+    color: #686566;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.text-header,
+.text-about {
+}
+
+.text-button {
+    color: #005F2D;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.drop-cap::first-letter {
+    font-size: 150%;
+    color: white;
+    background-color: #c1d4d2;
+    padding: 0 5px;
+    margin-right: 0px;
+    margin-top: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.clear {
+    clear: both;
+}
