@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype'),
+         url('fonts/helveticaneue-thin-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.articles {
+	background: url("../img/fon.png") center;
+	height: 500px;
+}
+
+.header__first {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 45%;
+	font-family: 'Helvetica_Neue', sans-serif;
+	font-size: 30px;
+	
+}
+
+.header__second {
+	padding-left: 38%;
+	font-family: 'Helvetica_Neue', sans-serif;
+	font-size: 25px;
+
+}
+
+.header__third {
+	padding-left: 25%;
+	padding-top: 2%;
+	font-family: 'Helvetica_Neue', sans-serif;
+	font-size: 20px;
+	word-spacing: 20px;
+}
+
+
+
+header:before {
+	content: "";
+	float: left;
+	width: 295px;
+	height: 70px;
+	margin-left: 50px;
+	background: url(../img/flower_left.png);
+	background-repeat: no-repeat;
+	margin-top: 1%;
+	
+}
+
+
+.header__second:before {
+	content: "";
+	float: left;
+	width: 30px;
+	height: 10px;
+	padding-right: 1%;
+	margin-top: 1%;
+	background: url(../img/spiral.png);
+	background-repeat: no-repeat;
+}
+
+.header__second:after {
+	content: "";
+	float: right;
+	width: 30px;
+	height: 10px;
+	padding-left: 1%;
+	background: url(../img/spiral.png);
+	background-repeat: no-repeat;
+	margin-right: 63%;
+	margin-top: 1%;
+}
+
+header:after {
+	content: "";
+	float: right;
+	margin-top: -67px;
+	width: 295px;
+	height: 70px;
+	margin-right: 50px;
+	background: url(../img/flower_right.png);
+	background-repeat: no-repeat;
+}
+
+.conteiner {
+	display: inline;
+	
+}
+
+.articlesall
+ {
+ 	margin-left: 20px;
+ 	display: inline;
+ }
+
+.prev {
+	margin-top: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+}
+
+.article1 {
+	background: url("../img/fon_article.png");
+	height: 342px;
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+}
+
+.article2 {
+	background: url("../img/fon_article.png");
+	height: 342px;
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+}
+
+.article3 {
+	background: url("../img/fon_article.png");
+	height: 342px;
+	width: 25%;
+	float: left;
+	margin-right: 2%;
+}
+
+.next {
+	margin-top: 10%;
+	float: left;
+}
