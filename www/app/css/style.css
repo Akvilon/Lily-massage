@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: helvetica, sans-serif;
 }
@@ -7,6 +12,7 @@ body {
     margin: auto;;
 }
 
+/*HELLO*/
 .hello {
     width: 100%;
     min-height: 550px;
@@ -57,11 +63,82 @@ body {
 }
 
 
+/*Massage for you*/
+.my-background {
+    background: linear-gradient(#cfeed8, #94c236);
+}
+
+.separated {
+    margin-top: 30px;
+}
+
+.centered {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.services-carousel {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.img-bordered {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 12px rgba(225, 225, 225, 0.7) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bordered--service-1 {
+    background-image: url(../img/service-0.jpg);
+}
+
+.img-bordered--service-2 {
+    background-image: url(../img/service-1.jpg);
+}
+
+.img-bordered--service-3 {
+    background-image: url(../img/service-2.jpg);
+}
+
+.img-bordered--service-4 {
+    background-image: url(../img/service-3.jpg);
+}
+
+.btn-left,
+.btn-right {
+    background-image: url(../img/button-left-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height:40px;
+}
+
+.btn-right {
+    background-image: url(../img/button-right.png);
+}
+
+.btn-services {
+    background-color: #005F2D;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
 
 
-
-
-
+/*TEXTS*/
 .text-header1 {
     color: #005F2D;
     font-size: 31px;
@@ -93,14 +170,25 @@ body {
 
 }
 
-.text-header,
-.text-about {
-}
-
 .text-button {
     color: #005F2D;
     font-size: 20px;
     font-weight: 700;
+}
+
+.text-button--negative {
+    color: #e1eed0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-service {
+    color: #005F2D;
+    font-size: 17px;
+    font-weight: 700;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    text-align: center;
 }
 
 .drop-cap::first-letter {
@@ -115,6 +203,8 @@ body {
     border-radius: 50%;
 }
 
+
+/*Transferable*/
 .clear {
     clear: both;
 }
