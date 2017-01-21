@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;;
+}
+
+/*HELLO*/
+.hello {
+    width: 100%;
+    min-height: 550px;
+    margin: 20px 0;
+    background: url(../img/background-flower.png) no-repeat right bottom;
+    border: 1px solid red;
+}
+
+.hello--left {
+    float: left;
+    width: 30%;
+}
+
+.img-bordered--lili {
+    width: 232px;
+    height:280px;
+    box-shadow: 0 0 0 17px rgba(225, 225, 225, 0.7) inset;
+    background-image: url(../img/lili.jpg);
+    margin: 30px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+
+.my-button {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.btn-order {
+    background-color: #e1eed0;
+    border-radius: 25px;
+    padding: 10px 20px;
+
+}
+
+
+.hello--right {
+    float: right;
+    width: 70%;
+}
+
+
+/*Massage for you*/
+.my-background {
+    background: linear-gradient(#cfeed8, #94c236);
+}
+
+.separated {
+    margin-top: 30px;
+}
+
+.centered {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.services-carousel {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.img-bordered {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 12px rgba(225, 225, 225, 0.7) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bordered--service-1 {
+    background-image: url(../img/service-0.jpg);
+}
+
+.img-bordered--service-2 {
+    background-image: url(../img/service-1.jpg);
+}
+
+.img-bordered--service-3 {
+    background-image: url(../img/service-2.jpg);
+}
+
+.img-bordered--service-4 {
+    background-image: url(../img/service-3.jpg);
+}
+
+.btn-left,
+.btn-right {
+    background-image: url(../img/button-left-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height:40px;
+}
+
+.btn-right {
+    background-image: url(../img/button-right.png);
+}
+
+.btn-services {
+    background-color: #005F2D;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+
+/*TEXTS*/
+.text-header1 {
+    color: #005F2D;
+    font-size: 31px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.text-header2 {
+    color: #70C10C;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.text-header3 {
+    color: #005F2D;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.text-about {
+    color: #686566;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.text-button {
+    color: #005F2D;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-button--negative {
+    color: #e1eed0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-service {
+    color: #005F2D;
+    font-size: 17px;
+    font-weight: 700;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    text-align: center;
+}
+
+.drop-cap::first-letter {
+    font-size: 150%;
+    color: white;
+    background-color: #c1d4d2;
+    padding: 0 5px;
+    margin-right: 0px;
+    margin-top: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*Transferable*/
+.clear {
+    clear: both;
+}
